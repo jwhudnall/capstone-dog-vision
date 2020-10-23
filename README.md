@@ -21,3 +21,9 @@ This is a supervised learning problem, as we will use labeled data to train the 
     * If a dog is present, the algorithm returns the dog’s breed.
     * If neither is present, this is indicated in the output.
 5. Test the algorithm with random pictures to see how accurate the predictions are.
+
+
+### Sample Model Output
+![Human Detected](/model-predictions/result-img-1.jpg) 
+![Dog Detected](/model-predictions/result-img-2.jpg) 
+![Neither Detected](/model-predictions/result-img-3.jpg)
