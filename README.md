@@ -1,5 +1,4 @@
 # Capstone Project: Dog Breed CNN Model
-
 This project involves convolutional neural networks. The end result is a model that accepts an image, and is able to:
 * Determine it is a picture of a dog, along with the dog’s breed.
 * Detect if the image includes the face of a human, alongside the dog breed that the human most resembles (great for party tricks!).
@@ -7,6 +6,23 @@ This project involves convolutional neural networks. The end result is a model t
 
 For example, if I input a picture of my face, the output should state that I am human, along with the dog breed most similar to my facial features. 
 This is a supervised learning problem, as we will use labeled data to train the neural network.
+### Software/Libraries Used
+* cv2
+* glob
+* matplotlib.pyplot
+* numpy
+* os
+* PIL
+* torch
+* torch.nn
+* torch.nn.functional
+* torch.optim
+* torch.utils.data
+* torchvision
+* torchvision.models
+* torchvision.transforms
+* tqdm
+
 
 
 ### Project Design
