@@ -24,6 +24,5 @@ def data_wrangling():
         x_val = df_melt[df_melt['country'] == country].year.tolist()
         y_val =  df_melt[df_melt['country'] == country].percentrural.tolist()
         data.append((country, x_val, y_val))
-        print(country, x_val, y_val)
 
     return data
