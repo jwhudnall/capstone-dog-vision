@@ -1,0 +1,3 @@
+.vscode/
+worldbankapp/__pycache__
+wrangling_scripts/__pycache__/*
