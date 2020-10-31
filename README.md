@@ -4,6 +4,9 @@ This project involves convolutional neural networks. The end result is a model t
 * Detect if the image includes the face of a human, alongside the dog breed that the human most resembles (great for party tricks!).
 * If neither are detected, inform the user.
 
+This project tackles the difficult problem of solving a multiclass classification problem. Quite difficult for us mere mortals; nothing for a well-tuned model. I will implement a convolutional neural network using Pytorch to identify the presence of humans and dogs, assigning each subject the dog breed they most resemble based on the model. At
+first, I will train a CNN from scratch; later, I’ll improve my results by leveraging a pretrained model via transfer learning.
+
 For example, if I input a picture of my face, the output should state that I am human, along with the dog breed most similar to my facial features. 
 This is a supervised learning problem, as we will use labeled data to train the neural network.
 ### Software/Libraries Used
