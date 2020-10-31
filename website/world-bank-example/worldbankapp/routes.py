@@ -22,6 +22,8 @@ y_val = data[0][2]
 # )]
 
 graph_one = []
+
+# loop through data to add all country data
 for data_tuple in data:
     graph_one.append(go.Scatter(
         x = data_tuple[1],
